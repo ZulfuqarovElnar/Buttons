@@ -25,7 +25,7 @@ export default function Click() {
 
     return (
         <section className='w-full h-auto py-10 flex justify-center'>
-            <div className='w-64 h-auto py-3 px-3 text-center rounded-lg border-t border-gray-100 shadow-lg'>
+            <div className='w-64 h-74 py-3 px-3 text-center rounded-lg border-t border-gray-100 shadow-lg'>
                 <h1 className='text-2xl py-2'>Click</h1>
                 <p className='h-20 text-[#757474]'>
                     Buttona tıkladıqda Api'den veri gəlməsini gözləmədən davamlı tıklamaq olur.
@@ -45,7 +45,7 @@ export default function Click() {
                 </div>
                 </div>
                 <button
-                    className='py-2 px-10 bg-blue-500 rounded-lg text-white'
+                    className='py-2 mt-3 px-10 bg-blue-500 rounded-lg text-white'
                     onClick={handleClick}
                 >
                     Click
