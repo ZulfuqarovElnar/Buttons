@@ -39,18 +39,18 @@ export default function ClickLoading() {
                 <h1 className='text-2xl py-2'>Click Loading</h1>
                 <p className='h-20 text-[#757474]'>Tıkladıqdan sonra Api'dən veri gəlməsini gözləyin.</p>
                 <div className='flex justify-between p-3'>
-                <div>
-                    <h3 className='text-amber-600'>Tələb</h3>
-                    <p>{clickCount}</p>
-                </div>
-                <div>
-                    <h3 className='text-red-600'>Error</h3>
-                    <p>{errorCount}</p>
-                </div>
-                <div>
-                    <h3 className='text-green-600'>Tamam</h3>
-                    <p>{apiRequestCount}</p>
-                </div>
+                    <div>
+                        <h3 className='text-amber-600'>Tələb</h3>
+                        <p>{clickCount}</p>
+                    </div>
+                    <div>
+                        <h3 className='text-red-600'>Error</h3>
+                        <p>{errorCount}</p>
+                    </div>
+                    <div>
+                        <h3 className='text-green-600'>Tamam</h3>
+                        <p>{apiRequestCount}</p>
+                    </div>
                 </div>
                 <button
                     className='py-2 px-10 mt-3 bg-blue-500 rounded-lg text-white'
